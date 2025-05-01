@@ -19,6 +19,9 @@ header {
     z-index: 1;
 
 }
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
   
 @media screen and (max-width: 768px) {
