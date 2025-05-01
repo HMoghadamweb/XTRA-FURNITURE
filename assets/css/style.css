@@ -1,0 +1,197 @@
+header {
+    .desk {
+        height: 100px;
+       
+            ul {
+                >li {
+                    cursor: pointer;
+                    list-style: none;
+                    color: white;
+                    :hover {
+                       
+                            color: rgb(235, 160, 10);
+                        
+                    }
+                }
+            }
+    }
+    position: relative;
+    z-index: 1;
+
+}
+
+  
+@media screen and (max-width: 768px) {
+    .ajibe {
+        &:first-child {
+            padding-top: 60px;
+        }
+        &:last-child {
+            padding-bottom: 60px;
+        }
+    }
+    header {
+        .res {
+            height: 100px;
+        }
+        .desk {
+            display: none;
+        }
+        .hidden {
+            display: none;
+          }
+        .menu-ham {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 50%;
+            background-color: rgb(200, 191, 191);
+            transition: 1s;
+            overflow: hidden;
+            transform: translateX(-1000px);
+            z-index: 2;
+    
+            >li {
+                >a {
+                    padding: 20px;
+                    border-bottom: 1px solid gray;
+                    display: block;
+    
+                    &:hover {
+                        background-color: gray;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+.ajayeb {
+    p {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    header {
+      .res {
+        display: none;
+        
+      }
+    }
+    .bug {
+        font-size: 50px;
+    }
+    .ajibe {
+        padding: 100px 0;
+    }
+    .ajayeb {
+        gap: 90px;
+
+    }
+
+}
+.hidden {
+  display: none;
+}
+
+.one {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    .slide1 {
+        background-image: url(../img/slide-bg1.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    .slide2 {
+        background-image: url(../img/slide3.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    .slide3 {
+        background-image: url(../img/slide-bg1.jpg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        color: rgb(76, 76, 76);
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+      
+}
+.two {
+    .dovom {
+        background-color: gray;
+        >.bech {
+            background-image: url(../img/box1-2.png);
+        }
+    }
+}
+@media screen and (min-width: 1289px) {
+
+    /* .buger {
+        margin-left: 105px;
+    } */
+    .ajayeb {
+        gap: 90px;
+        margin-left: 70px;
+    }
+}
+.three {
+    >div {
+        height: 197px;
+    }
+}
+.four {
+    width: 100%;
+    background-image: url(../img/img2-2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.five {
+    width: 100%;
+    background-image: url(../img/bg3-2.jpg);
+    >div {
+        width: 100%;
+    }
+}
+.hovere {
+    background-color: rgb(210, 210, 210);
+
+}
+.seven {
+    width: 100%;
+
+    background-image: url(../img/bg3-2.jpg);
+}
+
+footer {
+    background-image: url(../img/bg3-2.jpg);
+}
+
