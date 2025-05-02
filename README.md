@@ -1,5 +1,3 @@
- [Demo Project](https://hmoghadamweb.github.io/classicshop/)
+ [Demo Project](https://hmoghadamweb.github.io/XTRA-FURNITURE/)
 
 - Developed by Hasti Moghadam
-
-- Created - 2025-5-29
